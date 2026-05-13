@@ -1,6 +1,6 @@
 package com.harrys.backend.models;
 
-import java.time.LocalDateTime;
+import java.util.Date;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -26,5 +26,5 @@ public class BoardMember {
 
       private BoardRole boardRole; // Sin @Enumerated, Mongo lo maneja solo
 
-      private LocalDateTime joinedAt;
+      private Date joinedAt;
 }

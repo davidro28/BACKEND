@@ -1,6 +1,6 @@
 package com.harrys.backend.models;
 
-import java.sql.Date;
+import java.util.Date;
 import java.time.LocalDateTime;
 
 import org.springframework.data.annotation.Id;

@@ -7,7 +7,7 @@ import java.util.Date;
 public class BoardResponseDTO {
       private String id;
       private String name;
-      private String ownerId;
+      private String ownerUserId;
       private boolean favorite;
-      private Date createAt;
+      private Date createdAt;
 }
